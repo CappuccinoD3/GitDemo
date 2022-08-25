@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "Add Log", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "branch Version1.0", Toast.LENGTH_SHORT).show();
     }
 }
